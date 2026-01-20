@@ -4,3 +4,5 @@ st.title("Hello, Streamlit!")
 st.subheader("Getting Started")
 st.text("This is a simple Streamlit application.")
 st.write("Welcome to your first Streamlit app.")
+
+fruits = st.selectbox("choose one",["strawberry","raspberry","kiwi","mango","pineapple"])
